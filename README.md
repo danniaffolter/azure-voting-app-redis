@@ -1,4 +1,4 @@
-# Azure Voting App
+# Azure Voting App for Cloud Journey
 
 This sample creates a multi-container application in an Azure Container Service (AKS) cluster. The application interface has been built using Python / Flask. The data component is using Redis.
 
