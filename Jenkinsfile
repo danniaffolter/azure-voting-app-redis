@@ -12,14 +12,7 @@ pipeline {
         WEB_IMAGE_NAME="${env.ACR_LOGINSERVER}/azure-vote-front:kube${env.BUILD_NUMBER}"
     }
     stages {
-        
-        stage('Preparation') {
-            steps {
-                echo('Get code from Github')
-                // git 'https://github.com/danniaffolter/azure-voting-app-redis.git'
-            }
-        }
-        
+               
         stage('Compile Source Code') {
             steps {
                 echo('compile source code')
