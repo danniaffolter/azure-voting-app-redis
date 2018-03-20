@@ -44,7 +44,7 @@ spec:
     spec:
       containers:
       - name: azure-vote-front
-        image: clj120315acr.azurecr.io/azure-vote-front:kube1
+        image: clj120319acr.azurecr.io/azure-vote-front:kube1
         ports:
         - containerPort: 80
         resources:
